@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>AGRICOMPRA</title>
+		<link rel="icon" href="img/ImagenAgricompra.jpg" />
+		<link rel="stylesheet" href="tienda.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="header container">
+				<h1 class="logo">Agricompra</h1>
+
+				<nav>
+					<ul class="menu-nav">
+						<li>
+							<a href="Inicio.html">Inicio</a></li>
+						<li><a href="#">Recomendaciones</a></li>
+						<li><a href="#">Carrito</a></li>
+						<li>
+							<input type="search" placeholder="Buscar"/>
+							<button class="btn-search">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+						</form>
+
+					</li>
+					</ul>
+				</nav>
+
+				<div class="menu-hamburger">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+				<div class="Carrito">
+				</div>
+				
+				<div class="Perfil">
+					<a href="Perfil.html">
+						<img src="C:\Users\anara\OneDrive\Documentos\Programacion\imagenes\Imagen de WhatsApp 2024-10-07 a las 16.31.24_70ee4bd3.jpg" style="width:40px;height:40px;">
+					  </a>
+					  
+			<div class="menu-responsive">
+				<h1 class="logo-responsive">Agricompra</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Possimus, eum. Numquam, sapiente nemo.
+				</p>
+				<div class="container-social-responsive">
+					<a href="#" class="facebook">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a href="#" class="youtube">
+						<i class="fa-brands fa-youtube"></i>
+					</a>
+					<a href="#" class="telegram">
+						<i class="fa-brands fa-telegram"></i>
+					</a>
+					<a href="#" class="twitter">
+						<i class="fa-brands fa-twitter"></i>
+					</a>
+				</div>
+				<nav>
+					<ul class="menu-nav-responsive">
+						<li><a href="Inicio.html">Inicio</a></li>
+						<li><a href="#">Recomendaciones</a></li>
+						<li><a href="Carrito.html">Carrito</a></li>
+						<li>
+						
+							<input type="search" placeholder="Buscar..."/>
+							<button class="btn-search">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+						</form>
+				
+				</li>
+					</ul>
+				</nav>
+				<div class="btn-close-responsive">
+					<i class="fa-solid fa-xmark"></i>
+				</div>
+			</div>
+			<div id="overlay"></div>
+		</header>
+
+		<main class="container">
+			<div class="grid-images">
+				<div class="imagen-producto image-1">
+					<img src="imagenes/Imagen5Agricompra.jpg" alt="Imagen Producto 1" />
+				</div>
+				<div class="imagen-producto image-2">
+					<img src="imagenes/temato.jpg" alt="Imagen Producto 2" />
+				</div>
+				<div class="imagen-producto image-3">
+					<img src="imagenes/Imagen1agricompra.jpg" alt="Imagen Producto 3" />
+				</div>
+				<div class="imagen-producto image-4">
+					<img src="imagenes/Imagen2Agricompra.jpg" alt="Imagen Producto 4" />
+				</div>
+			</div>
+
+			<!-- Productos Detalles -->
+			<div class="container-details-product">
+				<div class="aside-details-product">
+					<div class="header-details-product">
+						<h2>Clavel Gigante</h2>
+						<div class="row">
+							<div class="calification">
+								<i class="fa-solid fa-star"></i>
+								<p>4.9 -<span> 80 reseñas</span></p>
+							</div>
+							<div class="share">
+								<button class="btn">
+									<i class="fa-solid fa-arrow-up-from-bracket"></i>
+									<p>Compartir</p>
+								</button>
+								<button class="btn">
+									<i class="fa-regular fa-heart"></i>
+									<p>Guardar</p>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="info-details-product">
+						<div class="container-acordeon">
+							<button class="acordeon-button active">
+								Fotos
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<div class="acordeon-content">
+								<p>
+									Fashion is a form of self-expression and autonomy at
+									a particular period and place and in a specific
+									context, of clothing, footwear, lifestyle,
+									accessories, makeup, hairstyle, and body posture.
+								</p>
+							</div>
+						</div>
+						<div class="container-acordeon">
+							<button class="acordeon-button">
+								Descripcion y Caracterisiticas
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<div class="acordeon-content">
+								<ul>
+									<li>Made from a sheer Belgian power micromesh.</li>
+									<li>
+										74% Polyamide (Nylon) 26% Elastane (Spandex)
+									</li>
+									<li>Adjustable hook & eye closure and straps</li>
+									<li>Hand wash in cold water, dry flat</li>
+								</ul>
+							</div>
+						</div>
+						<div class="container-acordeon">
+							<button class="acordeon-button">
+								Recomendaciones
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<div class="acordeon-content">
+								<p>
+									Use this as a guide. Preference is a huge factor —
+									if you're near the top of a size range and/or prefer
+									more coverage, you may want to size up.
+								</p>
+							</div>
+						</div>
+						<div class="container-acordeon">
+							<button class="acordeon-button">
+								Preguntas Frecuentes
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<div class="acordeon-content">
+								<ul>
+									<li>
+										All full-priced, unworn items, with tags attached
+										and in their original packaging are eligible for
+										return or exchange within 30 days of placing your
+										order.
+									</li>
+									<li>
+										Please note, packs must be returned in full. We do
+										not accept partial returns of packs.
+									</li>
+									<li>
+										Want to know our full returns policies? Here you
+										go.
+									</li>
+									<li>
+										Want more info about shipping, materials or care
+										instructions? Here!
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="body-details-product">
+						<div class="info-product">
+							<h2>Detalles del Producto</h2>
+							<div class="info">
+								<p>
+									The patented eighteen-inch hardwood Arrowhead deck
+									--- finely mortised in, makes this the strongest and
+									most rigid canoe ever built. You cannot buy a canoe
+									that will afford greater satisfaction.
+								</p>
+								<p>
+									The St. Louis Meramec Canoe Company was founded by
+									Alfred Wickett in 1922. Wickett had previously
+									worked for the Old Town Canoe Co from 1900 to 1914.
+									Manufacturing of the classic wooden canoes in Valley
+									Park, Missouri ceased in 1978.
+								</p>
+								<ul>
+									<li>Regular fit, mid-weight t-shirt</li>
+									<li>
+										Natural color, 100% premium combed organic cotton
+									</li>
+									<li>
+										Quality cotton grown without the use of herbicides
+										or pesticides - GOTS certified
+									</li>
+									<li>Soft touch water based printed in the USA</li>
+								</ul>
+							</div>
+							<div class="features-product">
+								<div class="feature-product shipping">
+									<i class="fa-solid fa-truck-fast"></i>
+									<h4>Envío Gratis</h4>
+									<p>A partir de $500.00</p>
+								</div>
+								<div class="feature-product return">
+									<i class="fa-solid fa-phone-volume"></i>
+									<h4>Llamanos al</h4>
+									<p>5579228998</p>
+								</div>
+								<div class="feature-product delivery">
+									<i class="fa-solid fa-pepper-hot"></i>
+									<h4>Entregas</h4>
+									<p>Dentro de la República Mexicana</p>
+								</div>
+								<div class="feature-product refund">
+									<i class="fa-solid fa-money-bill-transfer"></i>
+									<h4>Política de reembolso</h4>
+									<p> 60 días de reembolso</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-card-payment">
+					<div class="card-payment">
+						<div class="header">
+							<p class="price">$200.00</p>
+							<p class="count-reviews">
+								<i class="fa-solid fa-star"></i>
+								4.9 -
+								<span>90 reseñas</span>
+							</p>
+						</div>
+
+						<div class="sizes">
+							<p>Peso: <span id="value-size">1 kilo</span></p>
+							<div class="container-sizes">
+								<button class="btn-size selected">1 kilo</button>
+								<button class="btn-size">2 Kilos</button>
+								<button class="btn-size">5 Kilos</button>
+								<button class="btn-size">10 Kilos</button>
+								<button class="btn-size">15 kilos</button>
+								<button class="btn-size">20 kilos</button>
+								<button class="btn-size">30 kilos</button>
+							</div>
+						</div>
+						<div class="quantity">
+							<div class="container-add-quantity">
+								<div class="add-quantity">
+									<button class="btn-minus" id="btn-decrement">
+										<i class="fa-solid fa-minus"></i>
+									</button>
+									<span id="count-product">1</span>
+									<button class="btn-plus" id="btn-increment">
+										<i class="fa-solid fa-plus"></i>
+									</button>
+								</div>
+								<button class="btn-add-to-cart">
+									<i class="fa-solid fa-bag-shopping"></i>
+									Añadir al Carrito
+								</button>
+							</div>
+							<div class="info-quantity">
+								<div class="price-tax">
+									<p>
+										$200.00 x <span id="quantity-product">1</span>
+									</p>
+									
+								</div>
+								<div class="value">
+									<p>$200.00</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="total">
+							<span>Total</span>
+							<div class="price-total">$200.00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-reviews">
+				<h2><i class="fa-solid fa-star"></i> Reseñas</h2>
+				<div class="container-reviews">
+					<div class="container-review">
+						<div class="header-review">
+							<img src="imagenes/vaca.jpg" alt="Usuario 1" />
+							<div class="name-user-review">
+								<p>Danielo Punto</p>
+								<span>20 de Mayo, 2023</span>
+							</div>
+							<div class="stars-review">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+						</div>
+						<p>
+							"Me dedico a la agricultura orgánica y estaba buscando semillas 
+							 que fueran realmente libres de químicos. Estas semillas han sido 
+							perfectas, además la cosecha ha sido abundante y sana."
+						</p>
+					</div>
+					<div class="container-review">
+						<div class="header-review">
+							<img src="imagenes/hombre.jpg" alt="Usuario 2" />
+							<div class="name-user-review">
+								<p>Sara</p>
+								<span>20 de Mayo, 2023</span>
+							</div>
+							<div class="stars-review">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+						</div>
+						<p>
+							"Compré estas semillas hace unas semanas y ya están brotando. 
+							La tasa de germinación fue increíblemente alta, casi el 100%. 
+							¡Definitivamente volveré a comprar aquí!"
+						</p>
+					</div>
+					<div class="container-review">
+						<div class="header-review">
+							<img src="imagenes/gallinas.jpg" alt="Usuario 3" />
+							<div class="name-user-review">
+								<p>Kevin Porron</p>
+								<span>15 de Agosto, 2022</span>
+							</div>
+							<div class="stars-review">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+						</div>
+						<p>
+							"Soy principiante en la jardinería y estas semillas fueron 
+							fáciles de plantar. Las instrucciones eran claras y en 
+							poco tiempo vi los primeros brotes. Estoy muy satisfecho 
+							con los resultados."
+						</p>
+					</div>
+					<div class="container-review">
+						<div class="header-review">
+							<img src="imagenes/sombrero.jpg" alt="Usuario 4" />
+							<div class="name-user-review">
+								<p>Daniel Garnica</p>
+								<span>12 de Diciembre,2022</span>
+							</div>
+							<div class="stars-review">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+						</div>
+						<p>
+							"El envío fue muy rápido y las semillas llegaron en 
+							perfectas condiciones. Se nota que son frescas y de 
+							buena calidad. Mi jardín nunca había estado tan lleno de vida."
+						</p>
+					</div>
+				</div>
+				<button class="btn-show-reviews">
+					Mostrar todas las reseñas
+				</button>
+			</div>
+		</main>
+
+		<section class="container container-productos-relacionados">
+			<h2>Los clientes también compraron</h2>
+			<div class="cards-productos-relacionados">
+				<div class="card-producto-relacionado">
+					<div class="image-product">
+						<img
+							src="imagenes/herramientas1.jpg"
+							alt="Producto Relacionado 1"
+						/>
+						<div class="button-group">
+							<button class="btn-add-to-bag">
+								<i class="fa-solid fa-bag-shopping"></i>
+								Añadir a la cesta
+							</button>
+
+							<button class="btn-quick-view">
+								<i class="fa-solid fa-magnifying-glass"></i>
+								Vista previa
+							</button>
+						</div>
+					</div>
+					<div class="info-product">
+						<div class="container-title">
+							<h4>Wool Cashmere Jacket</h4>
+							<p>Matte Black</p>
+						</div>
+						<div class="container-price">
+							<span>$30.00</span>
+
+							<p><i class="fa-solid fa-star"></i> 3.8 (36 reseñas)</p>
+						</div>
+					</div>
+				</div>
+				<div class="card-producto-relacionado">
+					<div class="image-product">
+						<img
+							src="imagenes/semillas1.jpg"
+							alt="Producto Relacionado 2"
+						/>
+						<div class="button-group">
+							<button class="btn-add-to-bag">
+								<i class="fa-solid fa-bag-shopping"></i>
+								Añadir a la cesta
+							</button>
+
+							<button class="btn-quick-view">
+								<i class="fa-solid fa-magnifying-glass"></i>
+								Vista previa
+							</button>
+						</div>
+					</div>
+					<div class="info-product">
+						<div class="container-title">
+							<h4>Wool Cashmere Jacket</h4>
+							<p>Matte Black</p>
+						</div>
+						<div class="container-price">
+							<span>$30.00</span>
+
+							<p><i class="fa-solid fa-star"></i> 4.0 (26 reseñas)</p>
+						</div>
+					</div>
+				</div>
+				<div class="card-producto-relacionado">
+					<div class="image-product">
+						<img
+							src="imagenes/herramientas2.jpg"
+							alt="Producto Relacionado 3"
+						/>
+						<div class="button-group">
+							<button class="btn-add-to-bag">
+								<i class="fa-solid fa-bag-shopping"></i>
+								Añadir a la cesta
+							</button>
+
+							<button class="btn-quick-view">
+								<i class="fa-solid fa-magnifying-glass"></i>
+								Vista previa
+							</button>
+						</div>
+					</div>
+					<div class="info-product">
+						<div class="container-title">
+							<h4>Wool Cashmere Jacket</h4>
+							<p>Matte Black</p>
+						</div>
+						<div class="container-price">
+							<span>$30.00</span>
+
+							<p><i class="fa-solid fa-star"></i> 3.4 (21 reseñas)</p>
+						</div>
+					</div>
+				</div>
+				<div class="card-producto-relacionado">
+					<div class="image-product">
+						<img
+							src="imagenes/semillas2.jpg"
+							alt="Producto Relacionado 4"
+						/>
+						<div class="button-group">
+							<button class="btn-add-to-bag">
+								<i class="fa-solid fa-bag-shopping"></i>
+								Añadir a la cesta
+							</button>
+
+							<button class="btn-quick-view">
+								<i class="fa-solid fa-magnifying-glass"></i>
+								Vista previa
+							</button>
+						</div>
+					</div>
+					<div class="info-product">
+						<div class="container-title">
+							<h4>Wool Cashmere Jacket</h4>
+							<p>Matte Black</p>
+						</div>
+						<div class="container-price">
+							<span>$30.00</span>
+
+							<p><i class="fa-solid fa-star"></i> 4.4 (39 reseñas)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container footer">
+				<h1 class="logo">AGRICOMPRA</h1>
+
+				<div class="container-social">
+					<a href="#" class="facebook">
+						<i class="fa-brands fa-facebook"></i>
+						<span>facebook</span>
+					</a>
+					<a href="#" class="youtube">
+						<i class="fa-brands fa-youtube"></i>
+						<span>Youtube</span>
+					</a>
+					<a href="#" class="telegram">
+						<i class="fa-brands fa-telegram"></i>
+						<span>Telegram</span>
+					</a>
+					<a href="#" class="twitter">
+						<i class="fa-brands fa-twitter"></i>
+						<span>Twitter</span>
+					</a>
+				</div>
+
+				<div class="user-footer">
+					<ul>
+						<li>
+							<a href="Registro.html">Registrate</a></li>
+						<li><a href="">Contáctanos</a></li>
+					</ul>
+				</div>
+
+				<div class="container-policies">
+					<ul>
+						<li>
+							<a href="#">Política de Privacidad</a>
+						</li>
+						<li>
+							<a href="#">Política de Devoluciones</a>
+						</li>
+						<li>
+							<a href="#">Términos de compra</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<script src="tienda.js"></script>
+	</body>
+</html>
