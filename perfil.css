@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: #f6fcf7;
+    overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 1px solid #3deb63;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background-color: #79d82b;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.header .menu-nav {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+
+.menu-responsive {
+	display: none;
+}
+
+.fondo-ver {
+    position:absolute;
+    bottom: 250px;
+    right: 600px;
+
+}
+.circulo{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+}
+
+.card{
+    position: relative;
+    background-color: #d2e7d0;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.content_img{
+    text-align: center;
+    position: relative;
+    bottom: 58px;
+}
+
+.img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    border: 6px #fff solid;
+}
+
+div{
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    color: var(--Verydarkdesaturadedblue);
+}
+
+.card__name{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card__number{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card__correo{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+
+span{
+    color: var(--Darkgrayishblue);
+    font-weight: 300;
+}
+
+.card__mex{
+    color: var(--Darkgrayishblue);
+    margin-bottom: 20px;
+}
+
+.line{
+    display: block;
+    border: 1px #eee solid;
+}
+
+.data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 15px;
+}
+
+.data__text{
+    color: var(--Darkgrayishblue);
+    font-size: 0.8rem;
+}
